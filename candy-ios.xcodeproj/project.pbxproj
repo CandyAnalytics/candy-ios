@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DF0DD8E31E5D1F5D00CEC793 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DD8E21E5D1F5D00CEC793 /* Event.swift */; };
+		DF0DD8E51E5E1DA900CEC793 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0DD8E41E5E1DA900CEC793 /* Endpoints.swift */; };
 		DF32C45B1E5D15260004ED49 /* P3Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C4581E5D15260004ED49 /* P3Foundation.framework */; };
 		DF32C45C1E5D15260004ED49 /* P3NetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C4591E5D15260004ED49 /* P3NetworkKit.framework */; };
 		DF32C45D1E5D15260004ED49 /* P3UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C45A1E5D15260004ED49 /* P3UIKit.framework */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		DF0DD8E21E5D1F5D00CEC793 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DF0DD8E41E5E1DA900CEC793 /* Endpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		DF32C4581E5D15260004ED49 /* P3Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3Foundation.framework; path = Carthage/Build/iOS/P3Foundation.framework; sourceTree = "<group>"; };
 		DF32C4591E5D15260004ED49 /* P3NetworkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3NetworkKit.framework; path = Carthage/Build/iOS/P3NetworkKit.framework; sourceTree = "<group>"; };
 		DF32C45A1E5D15260004ED49 /* P3UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3UIKit.framework; path = Carthage/Build/iOS/P3UIKit.framework; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			children = (
 				DFEDE6561E5D0EC3005BC806 /* CandyAnalytics.h */,
 				DF32C45E1E5D15A00004ED49 /* Candy.swift */,
+				DF0DD8E41E5E1DA900CEC793 /* Endpoints.swift */,
 				DF0DD8E11E5D1F4B00CEC793 /* Protocols */,
 				DFEDE6571E5D0EC3005BC806 /* Info.plist */,
 			);
@@ -167,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF0DD8E31E5D1F5D00CEC793 /* Event.swift in Sources */,
+				DF0DD8E51E5E1DA900CEC793 /* Endpoints.swift in Sources */,
 				DF32C45F1E5D15A00004ED49 /* Candy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
