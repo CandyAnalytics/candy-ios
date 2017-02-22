@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <P3Foundation/P3Foundation.h>
+#import <P3UIKit/P3UIKit.h>
+#import <P3NetworkKit/P3NetworkKit.h>
 
 //! Project version number for CandyAnalytics.
 FOUNDATION_EXPORT double CandyAnalyticsVersionNumber;
