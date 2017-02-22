@@ -10,6 +10,7 @@
 		DF32C45B1E5D15260004ED49 /* P3Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C4581E5D15260004ED49 /* P3Foundation.framework */; };
 		DF32C45C1E5D15260004ED49 /* P3NetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C4591E5D15260004ED49 /* P3NetworkKit.framework */; };
 		DF32C45D1E5D15260004ED49 /* P3UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C45A1E5D15260004ED49 /* P3UIKit.framework */; };
+		DF32C45F1E5D15A00004ED49 /* Candy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF32C45E1E5D15A00004ED49 /* Candy.swift */; };
 		DFEDE6581E5D0EC3005BC806 /* CandyAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEDE6561E5D0EC3005BC806 /* CandyAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -17,6 +18,7 @@
 		DF32C4581E5D15260004ED49 /* P3Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3Foundation.framework; path = Carthage/Build/iOS/P3Foundation.framework; sourceTree = "<group>"; };
 		DF32C4591E5D15260004ED49 /* P3NetworkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3NetworkKit.framework; path = Carthage/Build/iOS/P3NetworkKit.framework; sourceTree = "<group>"; };
 		DF32C45A1E5D15260004ED49 /* P3UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3UIKit.framework; path = Carthage/Build/iOS/P3UIKit.framework; sourceTree = "<group>"; };
+		DF32C45E1E5D15A00004ED49 /* Candy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candy.swift; sourceTree = "<group>"; };
 		DFEDE6541E5D0EC3005BC806 /* CandyAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CandyAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEDE6561E5D0EC3005BC806 /* CandyAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CandyAnalytics.h; sourceTree = "<group>"; };
 		DFEDE6571E5D0EC3005BC806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				DFEDE6561E5D0EC3005BC806 /* CandyAnalytics.h */,
+				DF32C45E1E5D15A00004ED49 /* Candy.swift */,
 				DFEDE6571E5D0EC3005BC806 /* Info.plist */,
 			);
 			path = CandyAnalytics;
@@ -115,6 +118,7 @@
 				TargetAttributes = {
 					DFEDE6531E5D0EC3005BC806 = {
 						CreatedOnToolsVersion = 8.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -151,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF32C45F1E5D15A00004ED49 /* Candy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +266,7 @@
 		DFEDE65A1E5D0EC3005BC806 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.candytools.CandyAnalytics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -283,6 +290,7 @@
 		DFEDE65B1E5D0EC3005BC806 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
