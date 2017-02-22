@@ -36,8 +36,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         )
         
         Candy.setup(with: conf)
-        
         Candy.track(event: VisitedPage(params: [:]))
+        try? Candy.updateCurrentConfiguration(userId: "123123")
         
         return true
     }
