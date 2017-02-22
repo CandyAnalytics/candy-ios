@@ -35,7 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             application: application
         )
         
-        Candy.setup(configuration: conf)
+        Candy.setup(with: conf)
         
         Candy.track(event: VisitedPage(params: [:]))
         

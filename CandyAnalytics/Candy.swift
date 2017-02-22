@@ -21,8 +21,8 @@ public struct Candy {
     
     fileprivate static var configuration: Candy.Configuration?
     
-    public static func setup(configuration: Candy.Configuration) {
-        Candy.configuration = configuration
+    public static func setup(with conf: Candy.Configuration) {
+        Candy.configuration = conf
     }
 }
 
