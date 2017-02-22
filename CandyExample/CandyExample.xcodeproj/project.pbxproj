@@ -84,8 +84,8 @@
 		DF521DF91E5D19A100160F24 = {
 			isa = PBXGroup;
 			children = (
-				DF521E3F1E5D19FB00160F24 /* Frameworks */,
 				DF521E041E5D19A100160F24 /* CandyExample */,
+				DF521E3F1E5D19FB00160F24 /* Frameworks */,
 				DF521E031E5D19A100160F24 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -386,6 +386,7 @@
 				DF521E161E5D19A100160F24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
