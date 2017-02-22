@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF32C45B1E5D15260004ED49 /* P3Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C4581E5D15260004ED49 /* P3Foundation.framework */; };
+		DF32C45C1E5D15260004ED49 /* P3NetworkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C4591E5D15260004ED49 /* P3NetworkKit.framework */; };
+		DF32C45D1E5D15260004ED49 /* P3UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF32C45A1E5D15260004ED49 /* P3UIKit.framework */; };
 		DFEDE6581E5D0EC3005BC806 /* CandyAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEDE6561E5D0EC3005BC806 /* CandyAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF32C4581E5D15260004ED49 /* P3Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3Foundation.framework; path = Carthage/Build/iOS/P3Foundation.framework; sourceTree = "<group>"; };
+		DF32C4591E5D15260004ED49 /* P3NetworkKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3NetworkKit.framework; path = Carthage/Build/iOS/P3NetworkKit.framework; sourceTree = "<group>"; };
+		DF32C45A1E5D15260004ED49 /* P3UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = P3UIKit.framework; path = Carthage/Build/iOS/P3UIKit.framework; sourceTree = "<group>"; };
 		DFEDE6541E5D0EC3005BC806 /* CandyAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CandyAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFEDE6561E5D0EC3005BC806 /* CandyAnalytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CandyAnalytics.h; sourceTree = "<group>"; };
 		DFEDE6571E5D0EC3005BC806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -21,17 +27,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF32C45B1E5D15260004ED49 /* P3Foundation.framework in Frameworks */,
+				DF32C45C1E5D15260004ED49 /* P3NetworkKit.framework in Frameworks */,
+				DF32C45D1E5D15260004ED49 /* P3UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DF32C4571E5D15260004ED49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF32C4581E5D15260004ED49 /* P3Foundation.framework */,
+				DF32C4591E5D15260004ED49 /* P3NetworkKit.framework */,
+				DF32C45A1E5D15260004ED49 /* P3UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DFEDE63A1E5D0E9C005BC806 = {
 			isa = PBXGroup;
 			children = (
 				DFEDE6551E5D0EC3005BC806 /* CandyAnalytics */,
 				DFEDE6451E5D0E9C005BC806 /* Products */,
+				DF32C4571E5D15260004ED49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +266,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CandyAnalytics/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -264,6 +288,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CandyAnalytics/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -293,6 +321,7 @@
 				DFEDE65B1E5D0EC3005BC806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
