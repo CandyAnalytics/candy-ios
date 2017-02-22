@@ -9,6 +9,18 @@
 import UIKit
 import CandyAnalytics
 
+struct VisitedPage: Event {
+    static var name: String {
+        return "visited_page"
+    }
+    
+    var params: [String : String]
+    
+    init(params: [String:String]) {
+        self.params = params
+    }
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -24,6 +36,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         )
         
         Candy.setup(configuration: conf)
+        
+        Candy.track(event: VisitedPage(params: [:]))
+        
         return true
     }
 }

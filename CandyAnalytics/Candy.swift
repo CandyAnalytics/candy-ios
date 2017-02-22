@@ -25,3 +25,8 @@ public struct Candy {
         Candy.configuration = configuration
     }
 }
+
+public extension Candy {
+    public static func track(event: Event) {
+    }
+}
