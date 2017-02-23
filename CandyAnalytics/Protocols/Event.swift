@@ -8,7 +8,5 @@
 
 public protocol Event {
     static var name: String { get }
-    var params: [String:String] { get set }
-    
-    init(params: [String:String])
+    var properties: [String:Any] { get set }
 }
