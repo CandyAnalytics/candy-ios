@@ -11,6 +11,8 @@ public enum CandyError: Error {
 }
 
 public struct Candy {
+    fileprivate let queue = P3OperationQueue()
+    
     public struct Configuration {
         public let url: URL
         public let key: String
