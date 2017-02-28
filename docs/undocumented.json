@@ -1,0 +1,257 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": null,
+      "symbol": "Candy",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 9,
+      "symbol": "CandyError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 10,
+      "symbol": "CandyError.noCurrentConfiguration",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 13,
+      "symbol": "Candy",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 16,
+      "symbol": "Candy.Configuration",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 17,
+      "symbol": "Candy.Configuration.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 18,
+      "symbol": "Candy.Configuration.key",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 19,
+      "symbol": "Candy.Configuration.application",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 20,
+      "symbol": "Candy.Configuration.userId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 22,
+      "symbol": "Candy.Configuration.init(url:key:application:userId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 30,
+      "symbol": "Candy.currentConfiguration",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 32,
+      "symbol": "Candy.setup(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 36,
+      "symbol": "Candy.updateCurrentConfiguration(userId:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Candy.swift",
+      "line": 51,
+      "symbol": "Candy.track(event:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/CandyEvent.swift",
+      "line": 9,
+      "symbol": "CandyEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/CandyEvent.swift",
+      "line": 10,
+      "symbol": "CandyEvent.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/CandyEvent.swift",
+      "line": 14,
+      "symbol": "CandyEvent.properties",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/CandyEvent.swift",
+      "line": 16,
+      "symbol": "CandyEvent.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/CandyEvent.swift",
+      "line": 20,
+      "symbol": "CandyEvent.init(properties:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/ContentViewEvent.swift",
+      "line": 9,
+      "symbol": "ContentViewEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/ContentViewEvent.swift",
+      "line": 10,
+      "symbol": "ContentViewEvent.contentName",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/ContentViewEvent.swift",
+      "line": 11,
+      "symbol": "ContentViewEvent.contentId",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/ContentViewEvent.swift",
+      "line": 12,
+      "symbol": "ContentViewEvent.contentType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/ContentViewEvent.swift",
+      "line": 14,
+      "symbol": "ContentViewEvent.init(name:id:type:properties:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/LogInEvent.swift",
+      "line": 9,
+      "symbol": "LogInEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/LogInEvent.swift",
+      "line": 10,
+      "symbol": "LogInEvent.logInMethod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/LogInEvent.swift",
+      "line": 12,
+      "symbol": "LogInEvent.init(logInMethod:properties:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/SearchEvent.swift",
+      "line": 9,
+      "symbol": "SearchEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/SearchEvent.swift",
+      "line": 10,
+      "symbol": "SearchEvent.searchTerm",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/SearchEvent.swift",
+      "line": 12,
+      "symbol": "SearchEvent.init(searchTerm:properties:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/SignUpEvent.swift",
+      "line": 9,
+      "symbol": "SignUpEvent",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/SignUpEvent.swift",
+      "line": 10,
+      "symbol": "SignUpEvent.signUpMethod",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Events/SignUpEvent.swift",
+      "line": 12,
+      "symbol": "SignUpEvent.init(signUpMethod:properties:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Protocols/Event.swift",
+      "line": 9,
+      "symbol": "Event",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Protocols/Event.swift",
+      "line": 10,
+      "symbol": "Event.name",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Swanros/Documents/CandyAnalytics/candy-ios/CandyAnalytics/Protocols/Event.swift",
+      "line": 11,
+      "symbol": "Event.properties",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Swanros/Documents/CandyAnalytics/candy-ios"
+}
