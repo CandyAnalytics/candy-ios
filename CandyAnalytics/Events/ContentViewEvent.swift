@@ -6,11 +6,30 @@
 //  Copyright © 2017 Oscar Swanros. All rights reserved.
 //
 
+/// Tracks a Content View event on your application.
+/// Use this Event when you need to track visits to specific screens
+/// within your application, such as sales pages or user profiles.
 open class ContentViewEvent: CandyEvent {
+    // MARK: - Properties
+    
+    /// The name of the content that the user views.
     public var contentName: String
+    /// An identifier value for the content that the user views.
     public var contentId: String
+    /// The type of content that the user is viewing.
     public var contentType: String?
     
+    
+    // MARK: - Initializing
+    
+    /**
+     Creates an instance of `ContentViewEvent` with the given parameters.
+     
+     - parameter name:          The name of the content that the user views.
+     - parameter id:            An identifier value for the content that the user views.
+     - parameter type:          The type of content that the user is viewing.
+     - parameter properties:    Any additional properties that accompany this event.
+     */
     public init(name: String, id: String, type: String? = nil, properties: [String:String]? = nil) {
         self.contentName = name
         self.contentId = id
