@@ -35,7 +35,7 @@ open class ContentViewEvent: CandyEvent {
         self.contentId = id
         self.contentType = type
         
-        var ps = p3_unwrapped(dictionary: properties)
+        var ps = p3_unwrapped(properties)
         ps["content_name"] = name
         ps["content_id"] = id
         if let type = type {

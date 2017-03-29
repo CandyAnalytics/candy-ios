@@ -25,7 +25,7 @@ open class SearchEvent: CandyEvent {
     public init(searchTerm term: String, properties: [String:String]? = nil) {
         self.searchTerm = term
         
-        var ps = p3_unwrapped(dictionary: properties)
+        var ps = p3_unwrapped(properties)
         ps["term"] = term
         
         super.init(properties: ps)

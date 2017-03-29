@@ -25,7 +25,7 @@ open class LogInEvent: CandyEvent {
     public init(logInMethod method: String, properties: [String:String]? = nil) {
         self.logInMethod = method
         
-        var ps = p3_unwrapped(dictionary: properties)
+        var ps = p3_unwrapped(properties)
         ps["method"] = logInMethod
         
         super.init(properties: ps)
