@@ -10,14 +10,10 @@ import UIKit
 import CandyAnalytics
 
 struct VisitedPage: Event {
+    var properties: [String : Any]
+
     static var name: String {
         return "visited_page"
-    }
-    
-    var params: [String : String]
-    
-    init(params: [String:String]) {
-        self.params = params
     }
 }
 
@@ -36,8 +32,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         )
         
         Candy.setup(with: conf)
-        Candy.track(event: VisitedPage(params: [:]))
-        try? Candy.updateCurrentConfiguration(userId: "123123")
+        Candy.track(VisitedPage(properties: [:]))
+        try? Candy.updateCurrentConfiguration("123123")
         
         return true
     }
