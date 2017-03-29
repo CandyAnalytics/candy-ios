@@ -11,7 +11,7 @@ open class SearchEvent: CandyEvent {
     // MARK: - Properties
     
     /// The term that the user searched for.
-    public var searchTerm: String
+    open var searchTerm: String
     
     
     // MARK: - Initializing

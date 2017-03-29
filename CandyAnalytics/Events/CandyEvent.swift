@@ -15,12 +15,12 @@ open class CandyEvent: Event {
     
     /// The name of the event. This property is read-only, and is generated
     /// based on the name of the `CandyEvent` class instance.
-    public static var name: String {
+    open static var name: String {
         return "\(self))"
     }
     
     /// The properties of the event.
-    public var properties: [String:Any]
+    open var properties: [String:Any]
     
     
     // MARK: - Initializing
@@ -40,7 +40,7 @@ open class CandyEvent: Event {
     }
 }
 
-func p3_unwrapped<V, K>(dictionary: [V:K]?) -> [V:K] {
+func p3_unwrapped<V, K>(_ dictionary: [V:K]?) -> [V:K] {
     guard let d = dictionary else { return [:] }
     
     return d

@@ -11,7 +11,7 @@ open class LogInEvent: CandyEvent {
     // MARK: - Properties
     
     /// The method the user used to log in. Examples: "Facebook", "Google", "email"
-    public var logInMethod: String
+    open var logInMethod: String
     
     
     // MARK: - Initializing

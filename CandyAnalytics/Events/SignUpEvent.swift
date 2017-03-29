@@ -13,7 +13,7 @@ open class SignUpEvent: CandyEvent {
     // MARK: - Properties
     
     /// The method the user used to sign up. Examples: "Facebook", "Google", "email"
-    public var signUpMethod: String
+    open var signUpMethod: String
     
     
     // MARK: - Initializing

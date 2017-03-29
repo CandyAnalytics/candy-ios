@@ -27,13 +27,13 @@ public struct Candy {
         }
     }
     
-    public private(set) static var currentConfiguration: Candy.Configuration?
+    public fileprivate(set) static var currentConfiguration: Candy.Configuration?
     
     public static func setup(with conf: Candy.Configuration) {
         currentConfiguration = conf
     }
     
-    public static func updateCurrentConfiguration(userId: String) throws {
+    public static func updateCurrentConfiguration(_ userId: String) throws {
         guard let conf = currentConfiguration else {
             throw CandyError.noCurrentConfiguration
         }
@@ -48,6 +48,6 @@ public struct Candy {
 }
 
 public extension Candy {
-    public static func track(event: Event) {
+    public static func track(_ event: Event) {
     }
 }

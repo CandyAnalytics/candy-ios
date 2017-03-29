@@ -13,11 +13,11 @@ open class ContentViewEvent: CandyEvent {
     // MARK: - Properties
     
     /// The name of the content that the user views.
-    public var contentName: String
+    open var contentName: String
     /// An identifier value for the content that the user views.
-    public var contentId: String
+    open var contentId: String
     /// The type of content that the user is viewing.
-    public var contentType: String?
+    open var contentType: String?
     
     
     // MARK: - Initializing
